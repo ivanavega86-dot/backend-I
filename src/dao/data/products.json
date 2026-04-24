@@ -1,0 +1,83 @@
+[
+  {
+    "id": "1",
+    "name": "Product 1",
+    "description": "Description of Product 1",
+    "price": 10.99,
+    "category": "Category A",
+    "stock": 10,
+    "status": true,
+    "code": "P001"
+  },
+  {
+    "id": "2",
+    "name": "Product 2",
+    "description": "Description of Product 2",
+    "price": 19.99,
+    "category": "Category B",
+    "stock": 50,
+    "status": true,
+    "code": "P002"
+  },
+  {
+    "id": "3",
+    "name": "Product 3",
+    "description": "Description of Product 3",
+    "price": 5.99,
+    "category": "Category A",
+    "stock": 200,
+    "status": true,
+    "code": "P003"
+  },
+  {
+    "id": "4",
+    "name": "Product 4",
+    "description": "Description of Product 4",
+    "price": 15.99,
+    "category": "Category C",
+    "stock": 75,
+    "status": true,
+    "code": "P004"
+  },
+  {
+    "id": "5",
+    "name": "Product 5",
+    "description": "Description of Product 5",
+    "price": 8.99,
+    "category": "Category B",
+    "stock": 120,
+    "status": true,
+    "code": "P005"
+  },
+  {
+    "title": "asas",
+    "description": "sasas",
+    "price": "123",
+    "category": "12",
+    "stock": "12",
+    "status": "on",
+    "code": "12",
+    "id": "51"
+  },
+  {
+    "title": "A",
+    "description": "Q",
+    "price": "12",
+    "category": "21",
+    "stock": "2121",
+    "status": "on",
+    "code": "21",
+    "id": "511"
+  },
+  {
+    "title": "sa",
+    "description": "sasa",
+    "price": "121",
+    "category": "aqs",
+    "stock": "asa",
+    "status": true,
+    "code": "asas",
+    "thumbnails": [],
+    "id": "5111"
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "name": "primer-sv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "primer-sv.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "express": "^5.2.1",
+    "express-handlebars": "^9.0.1",
+    "multer": "^2.1.1",
+    "socket.io": "^4.8.3"
+  }
+}

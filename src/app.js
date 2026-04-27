@@ -4,6 +4,7 @@ import { engine } from "express-handlebars";
 import productRoutes from "./routes/products.routes.js";
 import cartRoutes from "./routes/cart.routes.js";
 import viewsRoutes from "./routes/views.routes.js";
+import mongoose from "mongoose";
 
 
 const app = express();
@@ -33,7 +34,10 @@ app.use((err, req, res, next) => {
     res.status(500).json({ error: err.message });
 });
 
-app.listen(3000, () => {
-    console.log("Server is running on port 3000");
+app.listen(8080, () => {
+    console.log("Server is running on port 8080");
+    mongoose.connect("mongodb+srv://ivanavega86_db_user:JtZwyDOopFGYpsKh@cluster0.xb51bhk.mongodb.net/81200")
+        .then(() => console.log("Connected to MongoDB"))
+        .catch((err) => console.error("Error connecting to MongoDB:", err));
 });
 
